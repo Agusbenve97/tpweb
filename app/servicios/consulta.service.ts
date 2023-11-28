@@ -6,8 +6,8 @@ import { Observable } from 'rxjs';
   providedIn: 'root'
 })
 export class ConsultaService {
-  //url =  "https://19ee-181-230-219-190.ngrok.io/student";
-  url= "https://bbcb-181-231-122-56.ngrok-free.app/student"
+  
+  url= "https://backend-idra-production.up.railway.app/student"
   options: any;
   parameters = new HttpHeaders();
   params =  new HttpParams();  
